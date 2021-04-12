@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: org.andres.junit5app.ejemplo.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 57, Failures: 1, Errors: 7, Skipped: 4, Time elapsed: 7.813 s <<< FAILURE! - in org.andres.junit5app.ejemplo.models.CuentaTest
+testDebitoCuentaMethodSource{String}[6]  Time elapsed: 0.008 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:271)
+
+pruebaTimeOut2  Time elapsed: 1.011 s  <<< ERROR!
+java.util.concurrent.TimeoutException: pruebaTimeOut2() timed out after 1000 milliseconds
+
+testDebitoCuentaCsvSource2{String, String}[4]  Time elapsed: 0.005 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:325)
+
+testDebitoCuentaCsvSource2{String, String}[5]  Time elapsed: 0.005 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:325)
+
+testDebitoCuentaCsvSource2{String, String}[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:327)
+
+testDebitoCuentaCsvSource{String, String}[6]  Time elapsed: 0.006 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource(CuentaTest.java:307)
+
+testDebitoCuentaCsvFileSource{String}[4]  Time elapsed: 0.005 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvFileSource(CuentaTest.java:315)
+
+testDebitoCuentaValueSource{String}[6]  Time elapsed: 0.007 s  <<< ERROR!
+org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaValueSource(CuentaTest.java:297)
+

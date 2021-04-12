@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.andres.junit5app.ejemplo.models.CuentaTest" time="7.813" tests="57" errors="7" skipped="4" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/noname/ProyectosPracticas/JUnit5/target/test-classes:/home/noname/ProyectosPracticas/JUnit5/target/classes:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0-M1/junit-jupiter-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0-M1/junit-jupiter-api-5.8.0-M1.jar:/home/noname/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/home/noname/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/noname/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0-M1/junit-jupiter-params-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0-M1/junit-jupiter-engine-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-oracle/lib"/>
+    <property name="sun.java.command" value="/home/noname/ProyectosPracticas/JUnit5/target/surefire/surefirebooter5866943185495308504.jar /home/noname/ProyectosPracticas/JUnit5/target/surefire 2021-04-11T22-06-33_359-jvmRun1 surefire3477253408102314657tmp surefire_01075051159811199316tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/noname/ProyectosPracticas/JUnit5/target/test-classes:/home/noname/ProyectosPracticas/JUnit5/target/classes:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.0-M1/junit-jupiter-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.0-M1/junit-jupiter-api-5.8.0-M1.jar:/home/noname/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/home/noname/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/noname/.m2/repository/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.0-M1/junit-jupiter-params-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.0-M1/junit-jupiter-engine-5.8.0-M1.jar:/home/noname/.m2/repository/org/junit/platform/junit-platform-engine/1.8.0-M1/junit-platform-engine-1.8.0-M1.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/home/noname/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/noname/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/noname"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/noname/ProyectosPracticas/JUnit5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/noname/ProyectosPracticas/JUnit5/target/surefire/surefirebooter5866943185495308504.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="noname"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-48-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/noname/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/noname/ProyectosPracticas/JUnit5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testSaldoCuentaDev" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.andres.junit5app.ejemplo.models.CuentaTest.testSaldoCuentaDev(CuentaTest.java:235)
+</skipped>
+    <system-out><![CDATA[Inicializando el test
+Iniciando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev2" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.006"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.041"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.005"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.002"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.003"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.004"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[6]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.008">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:271)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.007"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.005"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.011"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.004"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest" time="0.003"/>
+  <testcase name="pruebaTimeOut2" classname="org.andres.junit5app.ejemplo.models.CuentaTest$timeOutTest" time="1.011">
+    <error message="pruebaTimeOut2() timed out after 1000 milliseconds" type="java.util.concurrent.TimeoutException">java.util.concurrent.TimeoutException: pruebaTimeOut2() timed out after 1000 milliseconds
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaTimeOut3" classname="org.andres.junit5app.ejemplo.models.CuentaTest$timeOutTest" time="5.006"/>
+  <testcase name="pruebaTimeOut" classname="org.andres.junit5app.ejemplo.models.CuentaTest$timeOutTest" time="1.005"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.015"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.003"/>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.005">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:325)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+400 -> 700
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.005">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:325)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+577 -> 1000
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2{String, String}[6]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.002">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource2(CuentaTest.java:327)
+]]></failure>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+5000 -> 5000
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.003"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.015"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.004"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.004"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.008"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[6]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.006">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvSource(CuentaTest.java:307)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+6 -> 5000
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.007"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.005"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.005"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.005">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaCsvFileSource(CuentaTest.java:315)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.002"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[6]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.003"/>
+  <testcase name="testDebitoCuentaValueSource{String}[1]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.002"/>
+  <testcase name="testDebitoCuentaValueSource{String}[2]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.004"/>
+  <testcase name="testDebitoCuentaValueSource{String}[3]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.002"/>
+  <testcase name="testDebitoCuentaValueSource{String}[4]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.003"/>
+  <testcase name="testDebitoCuentaValueSource{String}[5]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.002"/>
+  <testcase name="testDebitoCuentaValueSource{String}[6]" classname="org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest" time="0.007">
+    <error message="Dinero Insuficiente" type="org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException">org.andres.junit5app.ejemplo.exceptions.DineroInsuficienteException: Dinero Insuficiente
+	at org.andres.junit5app.ejemplo.models.CuentaTest$PruebasParametrizadastest.testDebitoCuentaValueSource(CuentaTest.java:297)
+</error>
+    <system-out><![CDATA[Iniciando el metodo
+Iniciando el metodo
+Finalizando el metodo
+Finalizando el metodo
+]]></system-out>
+  </testcase>
+  <testcase name="testEnv" classname="org.andres.junit5app.ejemplo.models.CuentaTest$EnvironmentVarabletest" time="0">
+    <skipped message="Environment variable [ENVIRONMENT] does not exist"/>
+  </testcase>
+  <testcase name="testJavaHome" classname="org.andres.junit5app.ejemplo.models.CuentaTest$EnvironmentVarabletest" time="0.006"/>
+  <testcase name="imprimirVariablesAmbiente" classname="org.andres.junit5app.ejemplo.models.CuentaTest$EnvironmentVarabletest" time="0.123"/>
+  <testcase name="testJavaVersion" classname="org.andres.junit5app.ejemplo.models.CuentaTest$SystemPropertiestest" time="0"/>
+  <testcase name="imprimirSystemProperties" classname="org.andres.junit5app.ejemplo.models.CuentaTest$SystemPropertiestest" time="0.104"/>
+  <testcase name="testSoloJdk8" classname="org.andres.junit5app.ejemplo.models.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 11.0.10"/>
+  </testcase>
+  <testcase name="testNoWindows" classname="org.andres.junit5app.ejemplo.models.CuentaTest$SistemaOperativoTest" time="0.001"/>
+  <testcase name="testSoloLinuxMac" classname="org.andres.junit5app.ejemplo.models.CuentaTest$SistemaOperativoTest" time="0.002"/>
+  <testcase name="testSoloWindows" classname="org.andres.junit5app.ejemplo.models.CuentaTest$SistemaOperativoTest" time="0">
+    <skipped message="Disabled on operating system: Linux"/>
+  </testcase>
+  <testcase name="testCreditoCuenta" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuantasOperacionesBanco" time="0"/>
+  <testcase name="testDebitoCuenta" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuantasOperacionesBanco" time="0.001"/>
+  <testcase name="testTransferirDineroCuentas" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuantasOperacionesBanco" time="0"/>
+  <testcase name="testRelacionBancoCuentas" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuantasOperacionesBanco" time="0.001"/>
+  <testcase name="testDineroInsuficienteException" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuantasOperacionesBanco" time="0.002"/>
+  <testcase name="testSaldoCuenta" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldo" time="0"/>
+  <testcase name="testReferenciaDeCuenta" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldo" time="0"/>
+  <testcase name="testNombreCuenta" classname="org.andres.junit5app.ejemplo.models.CuentaTest$CuentaNombreYSaldo" time="0.001"/>
+</testsuite>
